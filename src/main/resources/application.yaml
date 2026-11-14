@@ -1,3 +1,5 @@
 spring:
   application:
     name: thymeleaf-locale-example
+  messages:
+    fallback-to-system-locale: false

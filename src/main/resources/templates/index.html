@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:lang="${#locale.getLanguage()}">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title th:text="#{page.title}">Hello World</title>
+</head>
+<body>
+<main>
+    <h1 th:text="#{page.heading}">Hello, World!</h1>
+    <p th:text="#{page.description}">Welcome to the Thymeleaf locale example.</p>
+</main>
+</body>
+</html>
